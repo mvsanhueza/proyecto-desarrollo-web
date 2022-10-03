@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* Family weight 100 - 300 - 400 y 700 */
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: rgb(63, 63, 63);
+}
+
+h3{
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: rgb(63, 63, 63);
+}
+
+
+/* -------- HEADER ---------- */
+header{      
+    height: 15vh;
+    
+}
+
+header .menu__icon{
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.4s ease-out;
+}
+
+header .menu__icon i{
+    color: cadetblue;
+    font-size: 2rem;
+    transition: all .4s ease-out;
+}
+
+header .menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;   
+    top: 0;
+    left: 100vh; 
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    transition: 0.5s left ease-out;
+    transition: 0.8s opacity ease-out;
+}
+
+header .menu__items{
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 400px;
+    width: 60vw;
+}
+
+header nav ul{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul a{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    transition: background-color 0.2s ease-out;
+    padding: 20px;
+    cursor: pointer;
+    border: solid 1px #b8b8b82d;    
+    font-size: 1.2rem;
+}
+
+header nav ul a:hover{
+    background-color: #ddd;
+}
+
+header .menu__iconX{
+    cursor: pointer;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .menu__iconX i{
+    font-size: 1.5rem ;
+    color: rgb(63, 63, 63);
+    transition: all 0.4s ease-out;
+    margin-right: 5px;
+}
+
+header .menu__iconX i:hover{
+    color: black;
+}
+
+header .menu__btn{
+    display: none;
+}
+
+header .menu__btn:checked ~ .menu{
+    opacity: 1;
+    left: 0;
+}
+
+header .menu__btn:checked ~ .menu__icon{
+    opacity: 0;    
+}
+
+@media (min-width:619px){
+    header .menu__icon{
+        display: none;
+    }
+    
+    header .menu__iconX{
+        display: none;
+    }
+
+    header .menu{
+        background-color: transparent;
+        position: unset;
+        opacity: 1;
+        height: 100%;
+        width: 60vw;
+    }
+
+    header .menu__items{
+        background-color: transparent;
+        height: 100%;
+        width: 100%;
+    }
+
+    header .nav{
+        height: 100%;
+    }
+
+    header .nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    header .nav ul li{
+        height: 30px;
+        display: block;
+    }
+
+    header .nav ul a{
+        padding: 0;
+        border: 0;
+        height: 100%;
+    }
+
+    header .nav ul a:hover{
+        background-color: transparent;
+    }
+}
+
+.link-style{
+    color: black;
+}
+
+.link-style:hover{
+    color: black;
+}
+
+/* --------- Footer ---------- */
+footer{
+    background-color: #D9D9D9;
+    /* display: flex;
+    justify-content: space-around; */
+    /* height: 20vh; */
+}
+
+.footer__paginas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 90%;    
+}
+
+.footer__paginas li{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__info{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%; */
+    font-size: 0.8rem;
+}
+
+.footer__redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+.linkedin{
+    color: #0A66C2;
+    font-size: 1.5rem;
+}
+
+.youtube{
+    color: #FF0000;
+    font-size: 1.5rem;
+}
+
+.instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    background-clip: text;
+    font-size: 1.5rem;
+    color: transparent;
+}
+
+/* --------- MAIN ------------ */
+
+main{
+    background-color: #FCFCFC;
+}
+
+.style_title{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* --------- MAIN index html ------------ */
+
+.portada{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../assets/img/edificios/centro-innovacion.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portada h1{
+    visibility: collapse;
+}
+
+/* -- DESTACADO --*/
+
+.destacado{
+    height: 60vh;
+}
+
+.destacado__nosotros{
+width: 100%; 
+height: 40vh;
+}
+
+
+.destacado__proyectos{
+    height: 100%;
+}
+
+.destacado__proyecto{
+    height: 300px;
+}
+
+
+
+
+
+/* -- SERVICIOS -- */
+
+
+.servicios__item{
+    height: 300px;
+}
+
+
+.servicios__item__img{
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios__item__back{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.6s ease-out;
+}
+
+.servicios__item__descrip{
+    width: 100%;
+    height: 40px;
+    text-align: center;      
+    background-color: rgba(255, 255, 255, 0.726);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios__item__analisis{
+    background-image: url(../assets/img/spec.png);
+}
+
+.servicios__item__bim{
+        background-image: url(../assets/img/bim.jpg); 
+}
+
+.servicios__item__revisor{
+    background-image: url(../assets/img/revisor.jpg);
+}
+
+.servicios__item__rehab{
+    background-image: url(../assets/img/rehab.jpg);
+}
+
+
+.servicios__item__img:hover > div {
+    opacity: 1;
+}
+
+/* -- CLIENTES -- */
+
+
+
+.clientes__slider{
+    display: flex;    
+    overflow: scroll;
+    gap: 30px;
+    height: 200px;
+}
+
+
+/* ------- MAIN SOMOS --------- */
+
+.empresa{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.empresa__title{
+    margin: 20px;
+    color: white;
+}
+.empresa__txt{
+    width: 60%;
+    align-self: center;
+    color: white;
+}
+
+.misionVision{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.misionVision__vision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.misionVision__mision{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socios{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* -------- MAIN SERVICIOS -------- */
+
+.servicios__portada{
+    background-image: url(../assets/img/spec.gif);
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    
+    
+}
+
+.servicios__title{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.servicios__servicios{
+    display: flex;
+    height: 250vh;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.servicios__servicios__item{
+    display: flex;    
+    justify-content: space-around;
+    height: 50vh;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+.servicios__servicios__item__descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 100%;
+}
+
+.servicios__servicios__item__descrip p{
+    width: 60%;
+}
+
+
+
+/* --------- MAIN PROYECTOS ------------ */
+
+.proyectos__title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.proyectosrealizados{
+    display: grid;
+    height: 200vh;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 60px;   
+    padding-left: 20px;
+}
+
+.proyectosrealizados__img{
+    height: 80%;
+    width: 80%;
+}
+
+
+/* ------------- MAIN CONTACTO ------------- */
+
+.contacto__title{
+    height: 15vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.contacto{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    font-size: 0.9rem;    
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;   
+    font-weight: 200; 
+}
+
+.contacto__form__btn{
+    width: 80px;
+    height: 30px;
+    background-color: #0067c0;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    align-self: center;
+}
+
+.contacto__form__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contacto__form__btn:hover{
+    background-color: #1a76c6;
+}
+
+.contacto__form__item label{
+    display: block;
+}
+
+.contacto__form__item p{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.contacto__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 80%;
+}
+
+.contacto__info__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+}

@@ -34,59 +34,92 @@
                         <li><a class="link-style d-block" href="./somos.html">Somos</a></li>
                         <li><a class="link-style d-block" href="./servicios.html">Servicios</a></li>
                         <li><a class="link-style d-block" href="./proyectos.html"> Proyectos</a></li>
-                        <li><a class="link-style d-block" href="./contacto.html"><img
-                            src="../assets/img/contacto.png" width="25px"></a></li>
+                        <li><a class="link-style d-block" href="./contacto.html"><img src="../assets/img/contacto.png"
+                                    width="25px"></a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <main>
-        <div class="servicios__portada">
+    <main class="pb-5">
+        <div class="container-fluid servicios__portada shadow-lg">
         </div>
-        <h2 class="servicios__title">Servicios</h2>
-        <section class="servicios__servicios">
-            <article class="servicios__servicios__item">
-                <img src="../assets/img/spec.png" alt="analisis y diseño de estructuras" width="400px">
-                <div class="servicios__servicios__item__descrip">
-                    <h3> Análisis y diseño de estructuras</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Voluptatum dolor, obcaecati ratione earum nihil eveniet non mollitia vero voluptas laboriosam
-                        aspernatur minima et tempora maxime optio? Soluta neque pariatur delectus.</p>
+        <section class="servicios__servicios container">
+            <div class="row style_title">
+                <h2 class="text-center">Servicios</h2>
+            </div>
+
+            <article class="row">
+                <div class="col-lg w-100 position-relative">
+                    <img class="w-100" src="../assets/img/spec.png" alt="analisis y diseño de estructuras">
+                    <div class="servicios__title d-block d-lg-none position-absolute top-50 start-50 translate-middle d-flex flex-column justify-content-center">
+                        <h3 class="d-block h-25 text-center d-flex flex-column justify-content-center">
+                            Análisis y diseño de estructuras
+                        </h3>
+                    </div>
+                </div>               
+                
+                <div class="col-lg d-flex flex-column justify-content-evenly align-items-center">
+                    <h3 class="d-none d-lg-block"> Análisis y diseño de estructuras</h3>
+                    <p class="w-75 lh-lg text_justify">
+                        Nos aseguramos que nuestros diseños satisfagan un estándar para lograr objetivos establecidos de seguridad y nivel de servicio, permitiendo estructuras seguras, resistentes y funcionales. Los diseños de nuestros proyectos logran estructuras que soportan su propio peso (cargas muertas), las cargas ejercidas por el uso (cargas vivas) y las producidas por eventos de la naturaleza como vientos, sismos, nieve o agua.
+                    </p>
+
                 </div>
             </article>
 
-            <article class="servicios__servicios__item">
-                <img src="../assets/img/bim.jpg" alt="bim" width="400px">
-                <div class="servicios__servicios__item__descrip">
-                    <h3>Building Information Modeling (BIM)</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam quisquam, rem obcaecati nemo aspernatur ut! Ab mollitia adipisci, ad sunt saepe facilis nemo eaque laboriosam accusamus, magnam, rem laborum.
+            <article class="row">
+                <div class="col-lg w-100 position-relative">
+                    <img class="w-100" src="../assets/img/bim.jpg" alt="BIM">
+                    <div class="servicios__title d-block d-lg-none position-absolute top-50 start-50 translate-middle d-flex flex-column justify-content-center">
+                        <h3 class="d-block h-25 text-center d-flex flex-column justify-content-center">
+                            Building Information Modeling (BIM)
+                        </h3>
+                    </div>
+                </div> 
+                <div class="col-lg d-flex flex-column justify-content-evenly align-items-center">
+                    <h3 class="d-none d-lg-block">Building Information Modeling (BIM)</h3>
+                    <p class="w-75 lh-lg text_justify">
+                        Somos capaces de abordar los proyectos en ambiente BIM utilizando software dinámico de modelado de edificios en tres dimensiones y tiempo real con otras especialidades, disminuyendo la pérdida de tiempo y recursos en el diseño de nuestros proyectos.
                     </p>
                 </div>
             </article>
 
-            <article class="servicios__servicios__item">
-                <img src="../assets/img/revisor.jpg" alt="bim" width="400px">
-                <div class="servicios__servicios__item__descrip">
-                    <h3>Revisor de 1° categoría</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam quisquam, rem obcaecati nemo aspernatur ut! Ab mollitia adipisci, ad sunt saepe facilis nemo eaque laboriosam accusamus, magnam, rem laborum.
+            <article class="row">
+                <div class="col-lg w-100 position-relative">
+                    <img class=" w-100" src="../assets/img/revisor.jpg" alt="bim">
+                    <div class="servicios__title d-block d-lg-none position-absolute top-50 start-50 translate-middle d-flex flex-column justify-content-center">
+                        <h3 class="d-block h-25 text-center d-flex flex-column justify-content-center">
+                            Revisor de 1° categoría
+                        </h3>
+                    </div>
+                </div>                
+                <div class="col-lg d-flex flex-column justify-content-evenly align-items-center">
+                    <h3 class="d-none d-lg-block">Revisor de 1° categoría</h3>
+                    <p class="w-75 lh-lg text_justify">
+                        Nuestra oficina puede actuar como Revisor Estructural Independiente (1ra Categoría), asegurando al mandante una evaluación de su proyecto bajo los más altos estándares, de modo de garantizar el cumplimiento normativo.
                     </p>
                 </div>
             </article>
 
-            <article class="servicios__servicios__item">
-                <img src="../assets/img/rehab.jpg" alt="bim" width="400px">
-                <div class="servicios__servicios__item__descrip">
-                    <h3>Rehabilitación Estructural</h3>
-                    <p> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quam quisquam, rem obcaecati nemo aspernatur ut! Ab mollitia adipisci, ad sunt saepe facilis nemo eaque laboriosam accusamus, magnam, rem laborum.
+            <article class="row">
+                <div class="col-lg w-100 position-relative">
+                    <img class="w-100" src="../assets/img/rehab.jpg" alt="rehabilitacion estructural">
+                    <div class="servicios__title d-block d-lg-none position-absolute top-50 start-50 translate-middle d-flex flex-column justify-content-center">
+                        <h3 class="d-block h-25 text-center d-flex flex-column justify-content-center">
+                            Rehabilitación Estructural
+                        </h3>
+                    </div>
+                </div>                
+                <div class="col-lg d-flex flex-column justify-content-evenly align-items-center">
+                    <h3 class="d-none d-lg-block">Rehabilitación Estructural</h3>
+                    <p class="w-75 lh-lg text_justify">
+                        Nuestro objetivo está orientado al análisis de estructuras existentes con el fin de detectar daños, defectos y deterioros en diversos tipos de estructuras. Para ello podemos recurrir a ensayos no destructivos de laboratorio y/o destructivos mediante picados en caso de ser necesario.
                     </p>
                 </div>
             </article>
-        </section>       
+        </section>
 
     </main>
 
@@ -109,7 +142,7 @@
                         <span>Providencia, Santiago de Chile</span>
                         <span>Email: contacto@spectrum.cl</span>
                         <span>Fono: (56-2)22697792</span>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="footer__redes col-lg">
                     <h3>Nuestras redes sociales</h3>
@@ -119,8 +152,8 @@
                         <li><a href="https://www.instagram.com/"><i class="bi bi-instagram instagram"></i></a></li>
                     </ul>
                 </div>
-            </div>            
-        </div>     
+            </div>
+        </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>

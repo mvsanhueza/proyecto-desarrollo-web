@@ -421,7 +421,6 @@ width: 100%;
 
 .servicios__portada{
     background-image: url(../assets/img/spec.gif);
-    width: 100vw;
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -431,32 +430,22 @@ width: 100%;
 }
 
 .servicios__title{
-    padding-top: 60px;
-    text-align: center;
-}
-
-.servicios__servicios{
-    display: flex;
-    height: 250vh;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-.servicios__servicios__item{
-    display: flex;    
-    justify-content: space-around;
-    height: 50vh;
-    width: 100vw;
-    flex-wrap: wrap;
-}
-
-.servicios__servicios__item__descrip{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 40%;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 97%;
     height: 100%;
 }
+
+.servicios__title h3{
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+
+.text_justify{
+    text-align: justify;
+}
+
+
 
 .servicios__servicios__item__descrip p{
     width: 60%;

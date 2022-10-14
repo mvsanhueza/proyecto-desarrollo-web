@@ -1,0 +1,18 @@
+//Importacion desde carpeta utils
+@import "utils/variables";
+
+// Importacion desde carpeta base
+@import "base/reset.scss";
+@import "base/typography";
+@import "base/base";
+
+// Importacion desde carpeta layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+
+// Importacion de paginas
+@import "pages/index";
+@import "pages/somos";
+@import "pages/servicios";
+@import "pages/proyectos";

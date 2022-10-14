@@ -1,0 +1,98 @@
+
+// --- Portada ----
+.portada{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../assets/img/edificios/centro-innovacion.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    h1{
+        visibility: collapse;
+    }
+}
+
+// --- Destacado ---
+
+.destacado__nosotros{
+    width: 100%;
+
+    div p{
+        text-align: justify;
+    }
+}
+
+.destacado__proyecto{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &__Caption {
+        opacity: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: all 0.8s ease-in-out;
+    }
+
+    &:hover > &__Caption{
+        opacity: 1;
+    }
+}
+
+// --- Servicios ---
+
+.servicios__item{
+    height: 300px;
+
+    &__img {
+        width:100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover > div{
+            opacity: 1;
+        }
+    }
+
+    &__back{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
+        transition: all 0.6s ease-out;
+    }
+
+    &__descrip{
+        width: 100%;
+        height: 40px;
+        text-align: center;      
+        background-color: rgba(255, 255, 255, 0.726);    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__analisis{
+        background-image: url(../assets/img/spec.png);
+    }
+
+    &__bim{
+        background-image: url(../assets/img/bim.jpg); 
+    }
+
+    &__revisor{
+        background-image: url(../assets/img/revisor.jpg);
+    }
+
+    &__rehab{
+        background-image: url(../assets/img/rehab.jpg);
+    }
+}

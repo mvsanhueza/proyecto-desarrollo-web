@@ -1,0 +1,27 @@
+.servicios__portada{
+    background-image: url(../assets/img/spec.gif);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.servicios__title{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 97%;
+    height: 100%;
+
+    h3{
+        background-color: rgba(255, 255, 255, 0.6);
+        font-weight: bold;
+    }
+}
+
+.text_justify{
+    text-align: justify;
+}
+
+.servicios__servicios__item__descrip p{
+    width: 60%;
+}

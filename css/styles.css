@@ -204,6 +204,41 @@ main {
   background-color: #FCFCFC;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  font-weight: 200;
+}
+.formulario__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.formulario__item label {
+  display: block;
+}
+.formulario__item p {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.boton-primario {
+  width: 80px;
+  height: 30px;
+  background-color: #0067c0;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  align-self: center;
+  transition: all 0.2s ease-in-out;
+}
+.boton-primario:hover {
+  background-color: #1a76c6;
+}
+
 .portada {
   width: 100%;
   height: 40vh;
@@ -353,9 +388,533 @@ main {
   width: 60%;
 }
 
-.proyectosRealizados img {
-  min-width: 300px;
-  max-height: 200px;
+.proyectosRealizados {
+  margin-bottom: 50px;
+}
+.proyectosRealizados article {
+  padding-bottom: 20px;
+}
+
+.proyecto__1 {
+  background-image: url("../assets/img/edificios-reducidos/carlosalvarado.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__1 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__1 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__1:hover > div {
+  opacity: 1;
+}
+
+.proyecto__2 {
+  background-image: url("../assets/img/edificios-reducidos/carloscabot-abc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__2 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__2 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__2:hover > div {
+  opacity: 1;
+}
+
+.proyecto__3 {
+  background-image: url("../assets/img/edificios-reducidos/centro-innovacion.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__3 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__3 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__3:hover > div {
+  opacity: 1;
+}
+
+.proyecto__4 {
+  background-image: url("../assets/img/edificios-reducidos/dariourzua.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__4 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__4 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__4:hover > div {
+  opacity: 1;
+}
+
+.proyecto__5 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-bellohorizonte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__5 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__5 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__5:hover > div {
+  opacity: 1;
+}
+
+.proyecto__6 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-conjunto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__6 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__6 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__6:hover > div {
+  opacity: 1;
+}
+
+.proyecto__7 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-diegodealmagro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__7 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__7 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__7:hover > div {
+  opacity: 1;
+}
+
+.proyecto__8 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-gralluidoriente.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__8 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__8 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__8:hover > div {
+  opacity: 1;
+}
+
+.proyecto__9 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-gralwid.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__9 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__9 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__9:hover > div {
+  opacity: 1;
+}
+
+.proyecto__10 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-hamburgo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__10 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__10 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__10:hover > div {
+  opacity: 1;
+}
+
+.proyecto__11 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-losmilitares.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__11 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__11 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__11:hover > div {
+  opacity: 1;
+}
+
+.proyecto__12 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-lyonalmagro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__12 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__12 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__12:hover > div {
+  opacity: 1;
+}
+
+.proyecto__13 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-pocuro.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__13 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__13 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__13:hover > div {
+  opacity: 1;
+}
+
+.proyecto__14 {
+  background-image: url("../assets/img/edificios-reducidos/edificio-santamagdalena.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__14 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__14 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__14:hover > div {
+  opacity: 1;
+}
+
+.proyecto__15 {
+  background-image: url("../assets/img/edificios-reducidos/lyon-costanera.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__15 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__15 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__15:hover > div {
+  opacity: 1;
+}
+
+.proyecto__16 {
+  background-image: url("../assets/img/edificios-reducidos/Edificio-Los-Gomeros.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.proyecto__16 div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+}
+.proyecto__16 div p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.726);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proyecto__16:hover > div {
+  opacity: 1;
+}
+
+.contacto {
+  margin-bottom: 50px;
+}
+.contacto__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+  margin-top: 80px;
+}
+.contacto__info__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+}
+
+@media (min-width: 992px) {
+  .contacto__info {
+    align-items: flex-start;
+    margin-left: 80px;
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

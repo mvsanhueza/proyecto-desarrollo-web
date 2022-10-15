@@ -1,0 +1,27 @@
+.contacto{
+
+    margin-bottom: 50px;
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80%;
+        margin-top: 80px;
+    
+        &__item{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 30%;
+        }
+    }
+}
+
+@media (min-width:992px){
+    .contacto__info{
+        align-items: flex-start;
+        margin-left: 80px;
+        margin-top: 0;
+    }
+}

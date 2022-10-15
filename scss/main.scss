@@ -1,5 +1,6 @@
 //Importacion desde carpeta utils
 @import "utils/variables";
+@import "utils/mixins";
 
 // Importacion desde carpeta base
 @import "base/reset.scss";
@@ -10,9 +11,14 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main";
+@import "layout/form";
+
+// Importacion desde carpeta components
+@import "components/buttons";
 
 // Importacion de paginas
 @import "pages/index";
 @import "pages/somos";
 @import "pages/servicios";
 @import "pages/proyectos";
+@import "pages/contacto";

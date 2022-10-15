@@ -1,4 +1,35 @@
-.proyectosRealizados img{
-    min-width: 300px;
-    max-height: 200px;
+
+.proyectosRealizados{   
+    margin-bottom: 50px;
+    article {
+        padding-bottom: 20px;
+    }
 }
+//Lista de proyectos
+
+$proyectosUrl:(
+    1:"../assets/img/edificios-reducidos/carlosalvarado.jpg",
+    2:"../assets/img/edificios-reducidos/carloscabot-abc.jpg",
+    3:"../assets/img/edificios-reducidos/centro-innovacion.jpg",
+    4:"../assets/img/edificios-reducidos/dariourzua.jpg",
+    5:"../assets/img/edificios-reducidos/edificio-bellohorizonte.jpg",
+    6:"../assets/img/edificios-reducidos/edificio-conjunto.jpg",
+    7:"../assets/img/edificios-reducidos/edificio-diegodealmagro.jpg",
+    8:"../assets/img/edificios-reducidos/edificio-gralluidoriente.jpg",
+    9:"../assets/img/edificios-reducidos/edificio-gralwid.jpg",
+    10:"../assets/img/edificios-reducidos/edificio-hamburgo.jpg",
+    11:"../assets/img/edificios-reducidos/edificio-losmilitares.jpg",
+    12:"../assets/img/edificios-reducidos/edificio-lyonalmagro.jpg",
+    13:"../assets/img/edificios-reducidos/edificio-pocuro.jpg",
+    14:"../assets/img/edificios-reducidos/edificio-santamagdalena.jpg",
+    15:"../assets/img/edificios-reducidos/lyon-costanera.jpg",
+    16:"../assets/img/edificios-reducidos/Edificio-Los-Gomeros.jpg",
+);
+
+
+@each $number, $url in $proyectosUrl{
+    .proyecto__#{$number}{
+        @include listProyectosStyle($url);
+    }
+};
+

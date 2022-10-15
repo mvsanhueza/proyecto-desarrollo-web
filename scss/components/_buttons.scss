@@ -1,0 +1,14 @@
+
+.boton-primario{
+    width: 80px;
+    height: 30px;
+    background-color: #0067c0;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    align-self: center;
+    transition: all .2s ease-in-out;
+    &:hover{
+        background-color: #1a76c6;
+    }
+}

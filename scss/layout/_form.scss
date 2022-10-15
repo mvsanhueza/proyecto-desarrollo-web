@@ -1,0 +1,23 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;   
+    font-weight: 200; 
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+        label{
+            display: block;
+        }
+
+        p{
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+    }
+}

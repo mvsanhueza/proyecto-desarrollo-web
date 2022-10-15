@@ -43,52 +43,54 @@
     </header>
 
     <main>
-        <h2 class="contacto__title">Contacto</h2>
-        <div class="contacto">
-            <form class="contacto__form" action="">
-                <div class="contacto__form__item">
-                    <label class="contacto_form_item_label" for="nombre-contacto">Nombre*</label>
-                    <input type="text" id="nombre-contacto" name="nombre-contacto">
-                </div>
-                <div class="contacto__form__item">
-                    <label class="contacto_form_item_label" for="email-contacto">Email*</label>
-                    <input type="email" id="email-contacto" name="email-contacto">
-                </div>
-                <div class="contacto__form__item">
-                    <label class="contacto_form_item_label" for="asunto-contacto">Asunto</label>
-                    <input type="text" id="asunto-contacto" name="asunto-contacto">
-                </div>
-                <div class="contacto__form__item">
-                    <label class="contacto_form_item_label" for="mensaje-contacto">Mensaje</label>
-                    <textarea name="mensaje-contacto" id="" cols="30" rows="10"></textarea>
-                    <p>(*): Campos requeridos</p>
-                </div>
-
-                <input class="contacto__form__btn" type="submit" value="Enviar">
-            </form>
-
-            <section class="contacto__info">
-                <article class="contacto__info__item">
-                    <h3> Dirección </h3>
-                    <div>
-                        <p>Marchant Pereira 367, Of. 501</p>
-                        <p>Providencia, Santiago de Chile</p>
+        <div class="style_title">
+            <h2 class="text-center">Contacto</h2>
+        </div>        
+        <div class="container">
+            <div class="row justify-content-center contacto">
+                <form class="col-lg formulario" action="">
+                    <div class="formulario__item">
+                        <label class="formulario_item_label" for="nombre-contacto">Nombre*</label>
+                        <input type="text" id="nombre-contacto" name="nombre-contacto">
                     </div>
-                </article>
-                <article class="contacto__info__item">
-                    <h3> Dirección </h3>
-                    <div>
-                        <p>Marchant Pereira 367, Of. 501</p>
-                        <p>Providencia, Santiago de Chile</p>
+                    <div class="formulario__item">
+                        <label class="formulario_item_label" for="email-contacto">Email*</label>
+                        <input type="email" id="email-contacto" name="email-contacto">
                     </div>
-                </article>
-                <article>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.808152756771!2d-70.61493908553294!3d-33.42824570375765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf64d85b7079%3A0x623b1f290a022776!2sMarchant%20Pereira%20367%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1663023857247!5m2!1ses!2scl"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </article>
-            </section>
+                    <div class="formulario__item">
+                        <label class="formulario_item_label" for="asunto-contacto">Asunto</label>
+                        <input type="text" id="asunto-contacto" name="asunto-contacto">
+                    </div>
+                    <div class="formulario__item">
+                        <label class="formulario_item_label" for="mensaje-contacto">Mensaje</label>
+                        <textarea name="mensaje-contacto" id="" cols="30" rows="10"></textarea>
+                        <p>(*): Campos requeridos</p>
+                    </div>    
+                    <input class="boton-primario" type="submit" value="Enviar">
+                </form>
+                <section class="col-lg contacto__info">
+                    <article class="contacto__info__item">
+                        <h3> Dirección </h3>
+                        <div>
+                            <p>Marchant Pereira 367, Of. 501</p>
+                            <p>Providencia, Santiago de Chile</p>
+                        </div>
+                    </article>
+                    <article class="contacto__info__item">
+                        <h3> Dirección </h3>
+                        <div>
+                            <p>Marchant Pereira 367, Of. 501</p>
+                            <p>Providencia, Santiago de Chile</p>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.808152756771!2d-70.61493908553294!3d-33.42824570375765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf64d85b7079%3A0x623b1f290a022776!2sMarchant%20Pereira%20367%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1663023857247!5m2!1ses!2scl"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                </section>
+            </div>          
         </div>
     </main>
 

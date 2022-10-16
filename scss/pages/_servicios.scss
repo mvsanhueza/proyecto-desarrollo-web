@@ -25,3 +25,17 @@
 .servicios__servicios__item__descrip p{
     width: 60%;
 }
+
+.servicios__servicios {
+    article{
+        margin-bottom: 40px;
+    }
+}
+
+@media(min-width:992px){
+    .servicios__servicios{
+        article{
+            margin-bottom: 0;
+        }
+    }
+}

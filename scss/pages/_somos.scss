@@ -24,10 +24,8 @@
 }
 
 .misionVision__vision{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+
+    @include flex(space-evenly,column,center);
     margin-left: 10px;
 
     p{
@@ -36,10 +34,8 @@
 }
 
 .misionVision__mision{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+    
+    @include flex(space-evenly,column,center);
 
     p{
         text-align: justify;

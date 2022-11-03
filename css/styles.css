@@ -420,6 +420,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__1 div {
   width: 100%;
@@ -429,7 +430,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__1 div p {
   width: 100%;
@@ -443,6 +444,9 @@ main {
 .proyecto__1:hover > div {
   opacity: 1;
 }
+.proyecto__1:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__2 {
   background-image: url("../assets/img/edificios-reducidos/carloscabot-abc.jpg");
@@ -451,6 +455,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__2 div {
   width: 100%;
@@ -460,7 +465,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__2 div p {
   width: 100%;
@@ -474,6 +479,9 @@ main {
 .proyecto__2:hover > div {
   opacity: 1;
 }
+.proyecto__2:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__3 {
   background-image: url("../assets/img/edificios-reducidos/centro-innovacion.jpg");
@@ -482,6 +490,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__3 div {
   width: 100%;
@@ -491,7 +500,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__3 div p {
   width: 100%;
@@ -505,6 +514,9 @@ main {
 .proyecto__3:hover > div {
   opacity: 1;
 }
+.proyecto__3:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__4 {
   background-image: url("../assets/img/edificios-reducidos/dariourzua.jpg");
@@ -513,6 +525,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__4 div {
   width: 100%;
@@ -522,7 +535,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__4 div p {
   width: 100%;
@@ -536,6 +549,9 @@ main {
 .proyecto__4:hover > div {
   opacity: 1;
 }
+.proyecto__4:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__5 {
   background-image: url("../assets/img/edificios-reducidos/edificio-bellohorizonte.jpg");
@@ -544,6 +560,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__5 div {
   width: 100%;
@@ -553,7 +570,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__5 div p {
   width: 100%;
@@ -567,6 +584,9 @@ main {
 .proyecto__5:hover > div {
   opacity: 1;
 }
+.proyecto__5:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__6 {
   background-image: url("../assets/img/edificios-reducidos/edificio-conjunto.jpg");
@@ -575,6 +595,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__6 div {
   width: 100%;
@@ -584,7 +605,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__6 div p {
   width: 100%;
@@ -598,6 +619,9 @@ main {
 .proyecto__6:hover > div {
   opacity: 1;
 }
+.proyecto__6:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__7 {
   background-image: url("../assets/img/edificios-reducidos/edificio-diegodealmagro.jpg");
@@ -606,6 +630,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__7 div {
   width: 100%;
@@ -615,7 +640,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__7 div p {
   width: 100%;
@@ -629,6 +654,9 @@ main {
 .proyecto__7:hover > div {
   opacity: 1;
 }
+.proyecto__7:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__8 {
   background-image: url("../assets/img/edificios-reducidos/edificio-gralluidoriente.jpg");
@@ -637,6 +665,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__8 div {
   width: 100%;
@@ -646,7 +675,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__8 div p {
   width: 100%;
@@ -660,6 +689,9 @@ main {
 .proyecto__8:hover > div {
   opacity: 1;
 }
+.proyecto__8:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__9 {
   background-image: url("../assets/img/edificios-reducidos/edificio-gralwid.jpg");
@@ -668,6 +700,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__9 div {
   width: 100%;
@@ -677,7 +710,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__9 div p {
   width: 100%;
@@ -691,6 +724,9 @@ main {
 .proyecto__9:hover > div {
   opacity: 1;
 }
+.proyecto__9:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__10 {
   background-image: url("../assets/img/edificios-reducidos/edificio-hamburgo.jpg");
@@ -699,6 +735,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__10 div {
   width: 100%;
@@ -708,7 +745,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__10 div p {
   width: 100%;
@@ -722,6 +759,9 @@ main {
 .proyecto__10:hover > div {
   opacity: 1;
 }
+.proyecto__10:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__11 {
   background-image: url("../assets/img/edificios-reducidos/edificio-losmilitares.jpg");
@@ -730,6 +770,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__11 div {
   width: 100%;
@@ -739,7 +780,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__11 div p {
   width: 100%;
@@ -753,6 +794,9 @@ main {
 .proyecto__11:hover > div {
   opacity: 1;
 }
+.proyecto__11:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__12 {
   background-image: url("../assets/img/edificios-reducidos/edificio-lyonalmagro.jpg");
@@ -761,6 +805,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__12 div {
   width: 100%;
@@ -770,7 +815,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__12 div p {
   width: 100%;
@@ -784,6 +829,9 @@ main {
 .proyecto__12:hover > div {
   opacity: 1;
 }
+.proyecto__12:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__13 {
   background-image: url("../assets/img/edificios-reducidos/edificio-pocuro.jpg");
@@ -792,6 +840,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__13 div {
   width: 100%;
@@ -801,7 +850,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__13 div p {
   width: 100%;
@@ -815,6 +864,9 @@ main {
 .proyecto__13:hover > div {
   opacity: 1;
 }
+.proyecto__13:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__14 {
   background-image: url("../assets/img/edificios-reducidos/edificio-santamagdalena.jpg");
@@ -823,6 +875,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__14 div {
   width: 100%;
@@ -832,7 +885,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__14 div p {
   width: 100%;
@@ -846,6 +899,9 @@ main {
 .proyecto__14:hover > div {
   opacity: 1;
 }
+.proyecto__14:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__15 {
   background-image: url("../assets/img/edificios-reducidos/lyon-costanera.jpg");
@@ -854,6 +910,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__15 div {
   width: 100%;
@@ -863,7 +920,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__15 div p {
   width: 100%;
@@ -877,6 +934,9 @@ main {
 .proyecto__15:hover > div {
   opacity: 1;
 }
+.proyecto__15:hover {
+  transform: scale(1.1);
+}
 
 .proyecto__16 {
   background-image: url("../assets/img/edificios-reducidos/Edificio-Los-Gomeros.jpg");
@@ -885,6 +945,7 @@ main {
   background-size: cover;
   width: 300px;
   height: 250px;
+  transition: all 0.2s ease-in-out;
 }
 .proyecto__16 div {
   width: 100%;
@@ -894,7 +955,7 @@ main {
   flex-direction: column;
   justify-content: center;
   opacity: 0;
-  transition: all 0.6s ease-out;
+  transition: all 1s ease-out;
 }
 .proyecto__16 div p {
   width: 100%;
@@ -907,6 +968,9 @@ main {
 }
 .proyecto__16:hover > div {
   opacity: 1;
+}
+.proyecto__16:hover {
+  transform: scale(1.1);
 }
 
 .contacto {
